@@ -5,12 +5,17 @@
     <artifactId>mixer2-distzip</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <MIXER2_VERSION>1.2.22</MIXER2_VERSION>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.mixer2</groupId>
             <artifactId>mixer2</artifactId>
-            <version>[1.2,)</version>
+            <version>${MIXER2_VERSION}</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
+
